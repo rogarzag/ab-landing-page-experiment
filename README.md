@@ -1,6 +1,17 @@
 # A/B Landing Page Experiment
 
-## Overview
+**Author:** [Rodrigo Garza García](https://www.linkedin.com/in/rodrigogarzamx/)  
+**Professional focus:** Public & International Affairs · Business Analysis · Data Analytics  
+**Portfolio page:** [ab landing page experiment](https://rogarzag.github.io/projects/ab-landing-page/)  
+**GitHub repository:** [ab-landing-page-experiment](https://github.com/rogarzag/ab-landing-page-experiment)  
+**Project focus:** Data Analytics · A/B Testing · Statistical Hypothesis Testing · Conversion Analysis  
+**Project context:** Data Analytics portfolio project  
+**Data / case coverage:** 40,000 user observations; experiment dates not specified in the project data summary  
+**Professional links:** [GitHub profile](https://github.com/rogarzag) · [LinkedIn](https://www.linkedin.com/in/rodrigogarzamx/) · [Professional Website](https://rogarzag.github.io/)
+
+## Project Overview
+
+
 
 This project evaluates an A/B experiment conducted on two landing page versions, **A** and **B**, to determine which version performs better in terms of **conversion rate** and **average spending among converted users**.
 
@@ -109,6 +120,6 @@ The dataset used in the analysis is included in the `data/` directory. The noteb
 - statsmodels
 - Jupyter Notebook
 
-## Author
+## Conclusion
 
-**Rodrigo Garza García**
+Page B performed better than Page A on both conversion rate and average spending among converted users, with statistically significant differences in the reported tests. However, the association between traffic source and conversion was very weak, and user type did not show a significant relationship with conversion. Page B is therefore the stronger candidate for further validation, with segmented analysis and profitability measures recommended before a rollout decision.
