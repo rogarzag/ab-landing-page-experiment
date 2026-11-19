@@ -2,7 +2,7 @@
 
 **Author:** [Rodrigo Garza García](https://www.linkedin.com/in/rodrigogarzamx/)  
 **Professional focus:** Public & International Affairs · Business Analysis · Data Analytics  
-**Portfolio page:** [ab landing page experiment](https://rogarzag.github.io/projects/ab-landing-page/)  
+**Portfolio page:** [A/B Landing Page Experiment](https://rogarzag.github.io/projects/ab-landing-page/)  
 **GitHub repository:** [ab-landing-page-experiment](https://github.com/rogarzag/ab-landing-page-experiment)  
 **Project focus:** Data Analytics · A/B Testing · Statistical Hypothesis Testing · Conversion Analysis  
 **Project context:** Data Analytics portfolio project  
