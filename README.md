@@ -6,7 +6,7 @@
 **GitHub repository:** [ab-landing-page-experiment](https://github.com/rogarzag/ab-landing-page-experiment)  
 **Project focus:** Data Analytics · A/B Testing · Conversion Rates · Statistical Tests  
 **Project context:** Data Analytics portfolio project  
-**Data / period covered:** 40,000 user observations; experiment dates not specified in the project data summary  
+**Data / project coverage:** 40,000 user observations; experiment dates not specified in the project data summary  
 **Professional links:** [GitHub profile](https://github.com/rogarzag) · [LinkedIn](https://www.linkedin.com/in/rodrigogarzamx/) · [Professional Website](https://rogarzag.github.io/)
 
 ## Project Overview
