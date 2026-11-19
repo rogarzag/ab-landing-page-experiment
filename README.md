@@ -4,9 +4,9 @@
 **Professional focus:** Public & International Affairs · Business Analysis · Data Analytics  
 **Portfolio page:** [A/B Landing Page Experiment](https://rogarzag.github.io/projects/ab-landing-page/)  
 **GitHub repository:** [ab-landing-page-experiment](https://github.com/rogarzag/ab-landing-page-experiment)  
-**Project focus:** Data Analytics · A/B Testing · Statistical Hypothesis Testing · Conversion Analysis  
+**Project focus:** Data Analytics · A/B Testing · Conversion Rates · Statistical Tests  
 **Project context:** Data Analytics portfolio project  
-**Data / case coverage:** 40,000 user observations; experiment dates not specified in the project data summary  
+**Data / period covered:** 40,000 user observations; experiment dates not specified in the project data summary  
 **Professional links:** [GitHub profile](https://github.com/rogarzag) · [LinkedIn](https://www.linkedin.com/in/rodrigogarzamx/) · [Professional Website](https://rogarzag.github.io/)
 
 ## Project Overview
@@ -15,7 +15,7 @@
 
 This project evaluates an A/B experiment conducted on two landing page versions, **A** and **B**, to determine which version performs better in terms of **conversion rate** and **average spending among converted users**.
 
-The analysis also explores whether conversion is associated with **traffic source** or **user type**, using statistical hypothesis testing and effect-size measures to distinguish statistical significance from practical business relevance.
+The analysis also checks whether conversion differs by **traffic source** or **user type**. Statistical tests are used to see whether the differences in the data are strong enough to be meaningful.
 
 ## Business Questions
 
@@ -60,7 +60,7 @@ The analysis follows these steps:
 - **Welch's t-test** to compare average spending between converted users on pages A and B
 - **Two-proportion Z-test** to compare conversion rates
 - **Chi-square test of independence** to test associations between categorical variables
-- **Cramér's V** to measure the strength of the association between traffic source and conversion
+- **Cramér's V** to check how strong the link is between traffic source and conversion
 
 ## Key Findings
 
@@ -103,7 +103,7 @@ No statistically significant association was found between user type and convers
 - **Prioritize page B** as the candidate version for implementation.
 - Do not reallocate acquisition resources based only on traffic-source conversion rates, since the observed association is very weak.
 - Do not prioritize different conversion strategies for new and returning users based on this experiment alone.
-- As a next step, analyze traffic source and user type separately within pages A and B to verify whether aggregate patterns remain stable and reduce the risk of **Simpson's paradox**.
+- As a next step, compare traffic source and user type separately for pages A and B. This will help check whether the overall results also hold within each page version.
 - Complement the implementation decision with profitability and cost metrics.
 
 ## Reproducibility
@@ -122,4 +122,4 @@ The dataset used in the analysis is included in the `data/` directory. The noteb
 
 ## Conclusion
 
-Page B performed better than Page A on both conversion rate and average spending among converted users, with statistically significant differences in the reported tests. However, the association between traffic source and conversion was very weak, and user type did not show a significant relationship with conversion. Page B is therefore the stronger candidate for further validation, with segmented analysis and profitability measures recommended before a rollout decision.
+In this dataset, page B had a higher conversion rate and higher average spending among users who converted. The differences were statistically significant. Traffic source had only a very weak link with conversion, while the results did not show a meaningful difference between new and returning users. Page B is the stronger option to review further, but costs and profit should also be considered before making a rollout decision.
